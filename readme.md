@@ -1,3 +1,7 @@
+# Student Info
+**Student Name:**  MD. FAZLAY RABBY     
+**Student ID:**  18200610     
+
 #  query (a)
 ISBN number, book title and price of books for books whose prices are greater than $19.99
 and less than $50.00.    
@@ -7,7 +11,7 @@ and less than $50.00.
 select ISBN, Title, Price from book where ( price > 19.99 and price < 50 );
 ~~~
 ### Output Result 
-<img src="query_output/a.PNG" alt="">     
+<img src="https://raw.githubusercontent.com/polodev/rabby_home_work/master/query_output/a.PNG" alt="">     
 
 # query (b)
 ISBN number, book title and price of books for books whose title include ‘Science’.     
@@ -18,7 +22,7 @@ select ISBN, Title, Price from book where title like '%Science%';
 ~~~
 
 ### Output Result 
-<img src="query_output/b.PNG" alt="">     
+<img src="https://raw.githubusercontent.com/polodev/rabby_home_work/master/query_output/b.PNG" alt="">     
 
 
 # query (c)
@@ -35,7 +39,7 @@ where PublisherID = 1;
 ~~~
 
 ### Output Result 
-<img src="query_output/c.PNG" alt="">     
+<img src="https://raw.githubusercontent.com/polodev/rabby_home_work/master/query_output/c.PNG" alt="">     
 
 # query (d)
 ISBN number, book title, price and author name for books that a certain author of your
@@ -51,7 +55,7 @@ where author.Name = 'Author name one';
 ~~~
 
 ### Output Result 
-<img src="query_output/d.PNG" alt="">   
+<img src="https://raw.githubusercontent.com/polodev/rabby_home_work/master/query_output/d.PNG" alt="">   
 
 
 # query (e)
@@ -68,7 +72,7 @@ where author.Name = 'Author name three';
 ~~~
 
 ### Output Result 
-<img src="query_output/e.PNG" alt="">   
+<img src="https://raw.githubusercontent.com/polodev/rabby_home_work/master/query_output/e.PNG" alt="">   
 
 
 
