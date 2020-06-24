@@ -4,7 +4,7 @@ and less than $50.00.
 
 ### Sql query
 ~~~sql
-select ISBN, Title, Price from book where ( price > 19.9 and price < 50 );
+select ISBN, Title, Price from book where ( price > 19.99 and price < 50 );
 ~~~
 ### Output Result 
 <img src="query_output/a.PNG" alt="">     
